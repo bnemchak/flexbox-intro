@@ -1,0 +1,45 @@
+body {
+  background-color: cornflowerblue;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
+
+  font-family: cursive;
+
+}
+.navigation{
+  background-color: cornsilk;
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item a {
+  margin: 1m;
+  display: block;
+  color: navy;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.nav-item a:hover{
+  color: black;
+  background-color: blueviolet;
+}
+
+footer {
+  width: 100%;
+  color: navy;
+  background-color: cornsilk;
+
+}
